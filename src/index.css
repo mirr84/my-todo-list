@@ -1,1 +1,9 @@
 @import '~antd/dist/antd.css';
+
+section .ant-layout {
+  min-height: calc(100vh - 187px);
+}
+
+.ant-layout-header {
+    background: #00152900;
+}

@@ -1,4 +1,4 @@
-import {ACTION_EXETUTION, ACTION_SETTER} from "./actionConst";
+import {ACTION_SETTER} from "./actionConst";
 
 export const actionSetter = (reducer, payload) => (
     {

@@ -1,4 +1,4 @@
-import {actionExcution, actionSetter} from "./actions/actions";
+import {actionSetter} from "./actions/actions";
 
 export const dispatchs = (dispatch) =>
     (
