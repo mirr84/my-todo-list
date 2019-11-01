@@ -7,3 +7,7 @@ section .ant-layout {
 .ant-layout-header {
     background: #00152900;
 }
+
+#root {
+  min-width: 1000px;
+}
