@@ -42,7 +42,7 @@ const App = ({history, state, dispatch}) =>
 
     </Header>
 
-      <Breadcrumb style={{ margin: '16px 0' }}>
+      <Breadcrumb style={{ margin: '16px 0' }} separator=">">
           {
             history.location
               .pathname.split('/').filter( a => !!a )
@@ -84,7 +84,6 @@ const App = ({history, state, dispatch}) =>
                       </span>
                     }
                   >
-                    <Menu.Item key="5" onClick = { () => history.push(`/projects/job`) }>option5</Menu.Item>
                   </SubMenu>
                   <SubMenu
                     key="sub3"
@@ -95,10 +94,6 @@ const App = ({history, state, dispatch}) =>
                       </span>
                     }
                   >
-                    <Menu.Item key="9">option9</Menu.Item>
-                    <Menu.Item key="10">option10</Menu.Item>
-                    <Menu.Item key="11">option11</Menu.Item>
-                    <Menu.Item key="12">option12</Menu.Item>
                   </SubMenu>
 
                   <SubMenu
@@ -110,10 +105,6 @@ const App = ({history, state, dispatch}) =>
                       </span>
                     }
                   >
-                    <Menu.Item key="13">option9</Menu.Item>
-                    <Menu.Item key="14">option10</Menu.Item>
-                    <Menu.Item key="15">option11</Menu.Item>
-                    <Menu.Item key="16">option12</Menu.Item>
                   </SubMenu>
 
                   <SubMenu
@@ -125,10 +116,6 @@ const App = ({history, state, dispatch}) =>
                       </span>
                     }
                   >
-                    <Menu.Item key="17">option9</Menu.Item>
-                    <Menu.Item key="18">option10</Menu.Item>
-                    <Menu.Item key="19">option11</Menu.Item>
-                    <Menu.Item key="20">option12</Menu.Item>
                   </SubMenu>
 
               </Menu>
